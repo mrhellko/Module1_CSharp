@@ -20,7 +20,7 @@ namespace UnitBrains.Player
             // Homework 1.3 (1st block, 3rd module)
             ///////////////////////////////////////           
 
-            float currentTemperature = GetTemperature();
+            int currentTemperature = GetTemperature();
             
             if (currentTemperature >= overheatTemperature)
             {
